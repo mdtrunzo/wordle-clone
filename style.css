@@ -66,11 +66,14 @@ h1{
     width: 62px;
     height: 62px;
     border: 2px solid rgb(212,212,212);
+    color:#000;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2px;
+    font-size: 2.25rem;
+    font-weight: bold;
 }
 
 .message-container {
@@ -102,14 +105,17 @@ h1{
 
 .grey-overlay {
     background-color: #3a3a3c !important;
+    color:#ffffff !important;
     border:none !important;
 }
 .yellow-overlay {
     background-color: #b59f3a !important;
+    color:#ffffff !important;
     border:none !important;
 }
 
 .green-overlay {
     background-color: #538d4e !important;
+    color:#ffffff !important;
     border:none !important;
 }

@@ -190,7 +190,7 @@ const flipTile = () => {
           tile.classList.add('flip')
           tile.classList.add(guess[index].color)
           addColorToKey(guess[index].letter, guess[index].color)
-      }, 500 * index);
+      }, 300 * index);
    })
 }
 
