@@ -5,7 +5,7 @@ const messageDisplay = document.querySelector('.message-container')
 let wordle
 
 const getWordle = () => {
-    fetch('/word')
+    fetch('https://romantic-ritchie-f03e06.netlify.app/word')
       .then(res => res.json())
       .then(data => {
           console.log(data)
