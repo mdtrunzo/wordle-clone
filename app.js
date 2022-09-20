@@ -117,7 +117,7 @@ const checkRow = () => {
     const guess = guessRows[currentRow].join('')
 
     if(currentTile > 4) {
-        fetch(`http://localhost:8000/check/?word=${guess}`)
+        fetch(`/check/?word=${guess}`)
         .then(res => res.json())
         .then(data => {
             console.log(data)
